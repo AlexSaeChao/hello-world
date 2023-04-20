@@ -18,3 +18,7 @@ if (userName == "") {
 } else {
     document.write(" You have your own name!?")
 }
+
+setTimeout(function() {
+    alert("15 seconds have elapsed! I know you've just started to read, but you're awesome!");
+  }, 15000); // 15000 milliseconds is 15 seconds

@@ -31,7 +31,7 @@ section {
     vertical-align: top;
     width: 30%;
     align-items: flex start;
-    background-color: rgba(109, 221, 255, 0.315);
+    /* background-color: rgba(109, 221, 255, 0.315); */
 }
 
 section img {
