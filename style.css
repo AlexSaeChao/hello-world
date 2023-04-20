@@ -8,9 +8,11 @@ body {
     border: 1px solid black;
 } */
 
-header h1{
-    text-align: center;
+h1 {
+    color: blue;
+    font-size: 5em;
 }
+
 
 nav ul li {
     list-style: none;
@@ -20,15 +22,20 @@ nav ul li a{
     color: rgb(40, 61, 129);
 }
 
+main p {
+        color: gray
+}
+
 section {
     display: inline-block;
     vertical-align: top;
     width: 30%;
     align-items: flex start;
+    /* background-color: rgba(216, 203, 203, 0.637); */
 }
 
 section img {
-    width: 90%;
+    width: 100%;
     height: 200px;
     vertical-align: flex start;
     object-fit: cover;
