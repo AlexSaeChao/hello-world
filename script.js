@@ -13,6 +13,7 @@ function greetUser() {
     if (userName == null) {
         document.write("You pressed the cancel button. That's okay.");
     } else if (userName == "") {
+        console.log(secondAttempt)
         userName = prompt("Please enter your name again.");
         if (userName == null) {
         document.write("You pressed the cancel button. That's okay.");
@@ -73,16 +74,6 @@ setTimeout(function() {
 
 
 
-// function rateMyPage(){
-//     let rating = prompt("how many stars would you rate my page? 1-5");
-
-//     for (let i = 0; i < rating; i++){
-//         document.write('Thanks for the ' + rating)
-//     }
-// }
-
-
-
 function rateMyPage(){
     let rating = prompt("How many burgers would you rate my page? (1-5)");
 
@@ -95,3 +86,13 @@ function rateMyPage(){
         document.write("<img class='loop-image' src='burger-rating.jpg' alt:'A single burger with 2 patties and cheddar on each patty. The top bun is quite large. This burger has onions, pickle coins, tomato, and lettuce beneath the pattys. It also has secret sauce in drizzled on the inside of both buns'/>");
     }
 }
+
+
+
+// function rateMyPage(){
+//     let rating = prompt("how many stars would you rate my page? 1-5");
+
+//     for (let i = 0; i < rating; i++){
+//         document.write('Thanks for the ' + rating +" rating.")
+//     }
+// }
