@@ -45,3 +45,7 @@ section img {
 footer p {
     text-align: center;
 }
+
+.loop-image {
+    width: 180px;
+}
