@@ -68,7 +68,7 @@ function greetUser() {
 
 // 20000 milliseconds is 20 seconds
 setTimeout(function() {
-    alert("15 seconds have elapsed! I know you've just started to read, but you're awesome!");
+    alert("20 seconds have elapsed! I know you've just started to read, but you're awesome!");
   }, 20000); 
 
 
@@ -86,12 +86,12 @@ setTimeout(function() {
 function rateMyPage(){
     let rating = prompt("How many burgers would you rate my page? (1-5)");
 
-    // Validate user input
+    // Validate user input before moving on
     while (rating < 1 || rating > 5 || isNaN(rating)) {
         rating = prompt("Please enter a number between 1 and 5.");
     }
 
     for (let i = 0; i < rating; i++){
-        document.write("<img class='loop-image' src='burger-rating.jpg'/>");
+        document.write("<img class='loop-image' src='burger-rating.jpg' alt:'A single burger with 2 patties and cheddar on each patty. The top bun is quite large. This burger has onions, pickle coins, tomato, and lettuce beneath the pattys. It also has secret sauce in drizzled on the inside of both buns'/>");
     }
 }
